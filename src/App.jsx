@@ -1,4 +1,6 @@
-import './App.css';
+import { useState } from 'react';
+import './assets/styles/style.css'
+import './assets/styles/index.css';
 
 const App = () => {
   const [answers, setAnswers] = useState([]);
@@ -9,7 +11,11 @@ const App = () => {
   
   return (
     <>
-    テスト
+      <section className="c-section">
+        <div className="c-box">
+          テスト
+        </div>
+      </section>
     </>
   );
 }
