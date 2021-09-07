@@ -1,0 +1,77 @@
+{
+  "init": {
+      "answers": [
+          {"content": "仕事を依頼したい方", "nextId": "work_offer"},
+          {"content": "ご利用のアプリがうまく動かない方", "nextId": "help_desk"},
+          {"content": "ご利用の”アプリへのご要望", "nextId": "request"},
+          {"content": "その他", "nextId": "other_help"}
+      ],
+      "question": "こんにちは！弊社へのご用件はなんでしょうか？"
+  },
+  "work_offer": {
+      "answers": [
+          {"content": "Webサイトの制作を依頼したい", "nextId": "website"},
+          {"content": "アプリの作成を依頼したい", "nextId": "createapp"},
+          {"content": "作業効率化のツールを作って欲しい", "nextId": "efficiency_tool"},
+          {"content": "その他", "nextId": "other_jobs"}
+      ],
+      "question": "どのようなお仕事でしょうか？"
+  },
+  "website": {
+      "answers": [
+          {"content": "お問い合わせフォームへ", "nextId": "contact"},
+          {"content": "初めの質問へ", "nextId": "init"}
+      ],
+      "question": "webサイトの制作依頼はこちらからお問い合わせください。"
+  },
+  "createapp": {
+      "answers": [
+          {"content": "お問い合わせフォームへ", "nextId": "contact"},
+          {"content": "初めの質問へ", "nextId": "init"}
+      ],
+      "question": "アプリケーションの制作依頼はこちらからお問い合わせください。"
+  },
+  "efficiency_tool": {
+      "answers": [
+          {"content": "お問い合わせフォームへ", "nextId": "contact"},
+          {"content": "初めの質問へ", "nextId": "init"}
+      ],
+      "question": "作業効率化のツール作成依頼はこちらからお問い合わせください。"
+  },
+  "other_jobs": {
+      "answers": [
+          {"content": "お問い合わせフォームへ", "nextId": "contact"},
+          {"content": "初めの質問へ", "nextId": "init"}
+      ],
+      "question": "その他の依頼はこちらからお問い合わせください。"
+  },
+  "help_desk": {
+      "answers": [
+          {"content": "よくあるご質問へ", "nextId": "{ここにURL}"},
+          {"content": "電話でのお問い合わせ", "nextId": "contact_tel"},
+          {"content": "メールでのお問い合わせ", "nextId": "contact"},
+          {"content": "初めの質問へ", "nextId": "init"}
+      ],
+      "question": "初めて訪れた方は「よくあるご質問へ」をクリックしてください。それ以外の方は電話かメールでご連絡ください。"
+  },
+"contact_tel": {
+      "answers": [
+          {"content": "初めの質問へ", "nextId": "init"}
+      ],
+      "question": "こちらの「電話番号：xxx-xxxx-xxxx」にお電話ください。"
+  },
+  "request": {
+      "answers": [
+          {"content": "ご要望はこちらから", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "いつも弊社のサービスをご利用してくださりありがとうございます。サービスに対するご意見、ご要望はお問い合わせフォームからご連絡よろしくお願いいたします。"
+  },
+   "other_help": {
+      "answers": [
+          {"content": "お問い合わせフォームへ", "nextId": "contact"},
+          {"content": "最初の質問に戻る", "nextId": "init"}
+      ],
+      "question": "その他のお問い合わせはこちらから"
+  }
+}
