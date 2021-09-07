@@ -52,13 +52,13 @@ const FormDialog = (props) => {
             return false
         } else {
             const payload = {
-                text: 'お問い合わせがありました\n'
+                text: 'お問い合わせがあり\n'
                     + 'お名前: ' + name + '\n'
                     + 'メールアドレス: ' + email + '\n'
                     + '【問い合わせ内容】\n' + description
             };
 
-    const url = "https://hooks.slack.com/services/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"
+    const url = "https://hooks.slack.com/services/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"
 
             fetch(url, {
                 method: 'POST',
