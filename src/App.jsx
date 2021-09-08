@@ -72,6 +72,7 @@ const App = () => {
       setDataset(initDataset)
       displayNextQuestion(currentId, initDataset[currentId])
     })()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
 
   useEffect(() => {
